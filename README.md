@@ -1,1 +1,1 @@
-# BirthdayApp
+This is my first app from the book: "Coding iPhone Apps for Kids: A Playful Introduction to Swift" The benefit of the application is that it reminds you of the birthdays of your loved ones. Birthday tracker
