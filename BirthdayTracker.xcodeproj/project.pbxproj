@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		4C1ACBD6247E920D00244597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACBD5247E920D00244597 /* AppDelegate.swift */; };
 		4C1ACBD8247E920D00244597 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACBD7247E920D00244597 /* SceneDelegate.swift */; };
-		4C1ACBDA247E920D00244597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACBD9247E920D00244597 /* ViewController.swift */; };
+		4C1ACBDA247E920D00244597 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACBD9247E920D00244597 /* AddBirthdayViewController.swift */; };
 		4C1ACBDD247E920D00244597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1ACBDB247E920D00244597 /* Main.storyboard */; };
 		4C1ACBE0247E920D00244597 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACBDE247E920D00244597 /* BirthdayTracker.xcdatamodeld */; };
 		4C1ACBE2247E920E00244597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1ACBE1247E920E00244597 /* Assets.xcassets */; };
 		4C1ACBE5247E920E00244597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1ACBE3247E920E00244597 /* LaunchScreen.storyboard */; };
+		4C1ACBEF247E9ADA00244597 /* BirthdaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1ACBEE247E9ADA00244597 /* BirthdaysTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C1ACBD2247E920D00244597 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C1ACBD5247E920D00244597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C1ACBD7247E920D00244597 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C1ACBD9247E920D00244597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C1ACBD9247E920D00244597 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		4C1ACBDC247E920D00244597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C1ACBDF247E920D00244597 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		4C1ACBE1247E920E00244597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C1ACBE4247E920E00244597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C1ACBE6247E920E00244597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1ACBEE247E9ADA00244597 /* BirthdaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdaysTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				4C1ACBD5247E920D00244597 /* AppDelegate.swift */,
 				4C1ACBD7247E920D00244597 /* SceneDelegate.swift */,
-				4C1ACBD9247E920D00244597 /* ViewController.swift */,
+				4C1ACBD9247E920D00244597 /* AddBirthdayViewController.swift */,
 				4C1ACBDB247E920D00244597 /* Main.storyboard */,
 				4C1ACBE1247E920E00244597 /* Assets.xcassets */,
 				4C1ACBE3247E920E00244597 /* LaunchScreen.storyboard */,
 				4C1ACBE6247E920E00244597 /* Info.plist */,
 				4C1ACBDE247E920D00244597 /* BirthdayTracker.xcdatamodeld */,
+				4C1ACBEE247E9ADA00244597 /* BirthdaysTableViewController.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -141,7 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C1ACBDA247E920D00244597 /* ViewController.swift in Sources */,
+				4C1ACBEF247E9ADA00244597 /* BirthdaysTableViewController.swift in Sources */,
+				4C1ACBDA247E920D00244597 /* AddBirthdayViewController.swift in Sources */,
 				4C1ACBD6247E920D00244597 /* AppDelegate.swift in Sources */,
 				4C1ACBD8247E920D00244597 /* SceneDelegate.swift in Sources */,
 				4C1ACBE0247E920D00244597 /* BirthdayTracker.xcdatamodeld in Sources */,
@@ -289,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 653BJF59Y5;
+				DEVELOPMENT_TEAM = H2S237TWF2;
 				INFOPLIST_FILE = BirthdayTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arturukozik.BirthdayTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturukozik.BirthdayTracker1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 653BJF59Y5;
+				DEVELOPMENT_TEAM = H2S237TWF2;
 				INFOPLIST_FILE = BirthdayTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.arturukozik.BirthdayTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.arturukozik.BirthdayTracker1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
